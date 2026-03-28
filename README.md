@@ -93,6 +93,59 @@ Neden bu konu DevOps'un ikinci adımı? Çünkü ilk bölümde öğrendiğimiz "
 Infrastructure as Code, teknoloji dünyasındaki kaosu düzene sokmaktır. Elle yapılan, hata dolu ve yavaş süreçleri; otomatik, hızlı, güvenilir ve tekrar edilebilir bir hale getirmektir. Artık sistem kurmak, bir sanatçının ruh haline bağlı bir eser değil, bir mühendisin kusursuzca çalışan fabrikası gibidir.
 
 --------------------------------------------------------------------------------
+---
+
+## ** Bölüm 03: Cloud Computing (AWS/Azure) – Sınırsız Kaynaklar Dünyası **
+Eskiden bir şirket kurduğunuzda, uygulamanızı dünyaya sunmak için bir odayı "sunucu odası" yapmanız gerekirdi. İçeriyi buz gibi yapan klimalar, gürültülü çalışan devasa makineler, kesintisiz güç kaynakları ve bu makinelerin tozunu alacak, bozulan parçayı değiştirecek teknisyenler... Bu hem çok pahalı hem de çok zahmetli bir işti. Bulut Bilişim (Cloud Computing), tüm bu zahmeti ortadan kaldıran devrim niteliğinde bir hizmettir.
+
+---
+
+### ** 1. "Musluktan Akan Su" Gibi Bilgi İşlem **
+Bulut bilişimi anlamanın en kolay yolu, evinizdeki su veya elektrik sistemine bakmaktır.
+Evinizde su kullanmak için bahçenize bir kuyu kazmanıza, bir arıtma tesisi kurmanıza ve boruları kendiniz döşemenize gerek yoktur. Şehir şebekesine bağlanırsınız; musluğu açtığınızda su akar, kapattığınızda durur. Ay sonunda ise sadece kullandığınız kadar ödeme yaparsınız.
+Bulut bilişim de tam olarak budur:
+Kendi sunucunuzu satın almazsınız: Dünyanın dört bir yanındaki dev veri merkezlerinde duran bilgisayarların bir kısmını kiralarsınız.
+Bakım yapmazsınız: O bilgisayarların soğutulması, bozulursa tamir edilmesi veya elektriğinin kesilmemesi bulut sağlayıcısının (AWS veya Azure gibi) sorumluluğundadır
+.
+Sadece ödediğiniz kadar: Geceleri uygulamanızı kimse kullanmıyorsa sunucuları kapatıp para ödemezsiniz, sabah herkes yüklendiğinde kapasiteyi artırırsınız.
+
+---
+
+### ** 2. İki Dev İsim: AWS ve Azure **
+Kaynaklarımızda belirtilen iki büyük isim, bu bulut dünyasının en popüler "hizmet sağlayıcılarıdır"
+:
+AWS (Amazon Web Services): Amazon'un kurduğu, dünyanın en büyük ve en eski bulut sistemidir. Elinde her türlü ihtiyaca uygun binlerce farklı "oyuncak" (servis) vardır.
+Azure (Microsoft Azure): Microsoft'un bulut sistemidir. Özellikle halihazırda Microsoft ürünleri kullanan büyük şirketler için çok uyumlu ve güçlü bir tercihtir.
+Bu iki platform da size sadece bilgisayar kiralamaz; yapay zekadan veri tabanlarına, güvenlik duvarlarından depolama alanlarına kadar her şeyi birer hizmet olarak sunar.
+
+--
+
+### ** 3. Neden Bulut Bilişime İhtiyacımız Var? **
+Bir uygulama yaptınız ve bir anda milyonlarca kişi kullanmaya başladı. Kendi sunucu odanız olsaydı, hemen gidip yeni makineler satın almanız, onları kamyonla getirtmeniz, kablolamanız ve kurmanız gerekirdi. Bu haftalar sürerdi ve o sırada uygulamanız çökerdi.
+Bulut bilişimde ise "Ölçeklenebilirlik" vardır:
+Esneklik: Tek bir tuşla (veya otomatik olarak) sisteminiz 1 bilgisayardan 1000 bilgisayara çıkabilir. Yoğunluk bittiğinde ise tekrar 1 bilgisayara inebilir.
+Küresel Erişim: Uygulamanızı tek bir tıkla hem Amerika'daki hem Japonya'daki hem de Türkiye'deki kullanıcılara, onlara en yakın veri merkezinden sunabilirsiniz. Bu, uygulamanızın jet hızında çalışmasını sağlar.
+
+Maliyet Tasarrufu: Milyonlarca dolarlık yatırım yapmak yerine, bir kahve parasına sisteminizi başlatabilirsiniz.
+
+---
+
+### ** 4. DevOps ve Bulutun Muhteşem Uyumu **
+Önceki bölümde öğrendiğimiz Infrastructure as Code (IaC), bulut üzerinde tam potansiyeline ulaşır. Yazdığınız bir kod satırı sayesinde AWS veya Azure üzerinde saniyeler içinde koca bir veri merkezi inşa edebilirsiniz
+.
+DevOps ekibi için bulut, bir oyun alanı gibidir. Her şeyin birer "servis" olarak sunulması, ekibin donanımla uğraşmak yerine tamamen "değer üretmeye" ve "uygulamayı iyileştirmeye" odaklanmasını sağlar. Eğer bir hata yaparsanız, bulutun "geri dön" veya "sil ve yeniden kur" özellikleri sayesinde riskleri minimuma indirirsiniz.
+
+#### ** Özetle: **
+Bulut bilişim, teknolojinin demokratikleşmesidir. Küçük bir garajda çalışan iki gençle, dünyanın en büyük bankasının aynı güçlü altyapıyı kullanabilmesini sağlar. Donanım satın alma derdini bitirip, sadece hayal ettiğiniz projeyi hayata geçirmeye odaklanmanızı sağlayan sınırsız bir kaynak denizidir.
+
+---
+--------------------------------------------------------------------------------
+Not: Bu bölümdeki detaylı açıklamalar (elektrik/su benzetmesi, ölçeklenebilirlik ve küresel erişim gibi kısımlar) kaynaklarda yer alan "Cloud Computing (AWS/Azure)" başlığını derinleştirmek amacıyla genel sektörel bilgilerle zenginleştirilmiştir
+.
+
+--------------------------------------------------------------------------------
 Not: Bu bölümdeki detaylı açıklamalar (yemek tarifi benzetmesi, tutarlılık ve geri dönüş avantajları gibi kısımlar) kaynaklarda yer alan konu başlığını derinleştirmek amacıyla genel sektörel bilgilerle zenginleştirilmiştir.
 
 --------------------------------------------------------------------------------
+
+---
